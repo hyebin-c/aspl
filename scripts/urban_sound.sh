@@ -22,12 +22,12 @@ if [ "$METHOD" = "palm" ]; then
     echo "Running ASPL_MODE=$ASPL_MODE"
 fi
 
-DATASET_ROOT="/mnt/lynx1/datasets/$DATASET"
+DATASET_ROOT="<FILL IN YOUR DATASET ROOT>/$DATASET"
 
 if [ -d "$DATASET_ROOT" ]; then
     echo "Dataset path exists: $DATASET_ROOT"
 else
-    echo "Dataset path does not exist. Please set the correct path to the dataset root directory in variable DATASET_ROOT"
+    echo "Dataset path does not exist. Please update DATASET_ROOT with your dataset directory."
 fi
 
 
