@@ -54,6 +54,8 @@ cd aspl
 pip install -r requirements.txt
 ```
 
+<br>
+
 <a name="model"/>
 
 ## Model
@@ -71,6 +73,8 @@ You can also download it with:
 ```bash
 wget https://zenodo.org/records/8387083/files/base.pth
 ```
+
+<br>
 
 <a name="datasets"/>
 
@@ -111,6 +115,8 @@ Audio-Datasets/
     ├── VocalSound/
 ```
 
+<br>
+
 <a name="code-structure"/>
 
 ## Code Structure
@@ -120,6 +126,8 @@ There are three main folders in this repository.
 - [`pengi`](/pengi): PENGI-based model components and audio encoder code
 - [`palm`](/palm): PALM, CoOp, CoCoOp, and ASPL/ASPL+ model implementations
 - [`utils`](/utils): dataset loading, training, evaluation, and logging utilities
+
+<br>
 
 <a name="run-experiments"/>
 
@@ -172,11 +180,15 @@ Logs are saved under [`logs`](/logs) using directories such as:
 - `logs/coop_aspl1_16`
 - `logs/cocoop_aspl2_16`
 
+<br>
+
 <a name="citation"/>
 
 ## Citation
 
 Citation information will be updated here.
+
+<br>
 
 <a name="contact"/>
 
@@ -184,11 +196,15 @@ Citation information will be updated here.
 
 If you have any questions or feedback, feel free to reach out at hyebin.cho@kaist.ac.kr.
 
+<br>
+
 <a name="license"/>
 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
+
+<br>
 
 <a name="acknowledgement"/>
 

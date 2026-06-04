@@ -2,7 +2,6 @@ import os
 import random
 import numpy as np
 import datetime
-import pytz
 from tqdm import tqdm
 from pprint import pprint
 
@@ -99,8 +98,8 @@ if __name__ == "__main__":
     print("\n\n##############################################")
     print("PALM: Prompt Learning in Audio Language Models")
     print("##############################################\n\n")
-    date_now = datetime.datetime.now(pytz.timezone('Asia/Dubai'))
-    print(f'Time & Date = {date_now.strftime("%I:%M %p")} , {date_now.strftime("%d_%b_%Y")}  GST\n')
+    date_now = datetime.datetime.now(datetime.timezone.utc)
+    print(f'Time & Date = {date_now.strftime("%I:%M %p")} , {date_now.strftime("%d_%b_%Y")} UTC\n')
 
     main(args)
 

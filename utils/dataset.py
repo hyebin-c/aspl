@@ -25,10 +25,7 @@ class FewShotDataset(Dataset):
         self.repeat = repeat
         self.resample = resample
 
-        if 'iemocap' in root.lower():
-            df = pd.read_csv(os.path.join('/home/hbcho/zero/dataset/iemocap', f"{split}.csv"))
-        else:
-            df = pd.read_csv(os.path.join(root, f"{split}.csv"))
+        df = pd.read_csv(os.path.join(root, f"{split}.csv"))
 
         self.classnames = df['classname'].unique().tolist()
         self.classnames.sort()

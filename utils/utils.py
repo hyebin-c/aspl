@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import pytz
 import argparse
 import datetime
 from sklearn.metrics import classification_report
@@ -250,8 +249,8 @@ def timeit(func):
         seconds = divmod(minutes[1], 1)        # Use remainder of minutes to calc seconds
 
 
-        date_now = datetime.datetime.now(pytz.timezone('Asia/Dubai'))
-        print(f'\n\nTime & Date = {date_now.strftime("%I:%M %p")} , {date_now.strftime("%d_%b_%Y")}  GST')
+        date_now = datetime.datetime.now(datetime.timezone.utc)
+        print(f'\n\nTime & Date = {date_now.strftime("%I:%M %p")} , {date_now.strftime("%d_%b_%Y")} UTC')
         print(f"\nTotal Time => {int(days[0])} Hours : {int(minutes[0])} Minutes : {int(seconds[0])} Seconds\n\n")
         return result
         
