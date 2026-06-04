@@ -31,6 +31,8 @@ This repository contains:
 - [Code Structure](#code-structure)
 - [Run Experiments](#run-experiments)
 - [Citation](#citation)
+- [Contact](#contact)
+- [License](#license)
 - [Acknowledgement](#acknowledgement)
 
 <a name="installation"/>
@@ -47,8 +49,8 @@ conda activate aspl
 2. Install dependencies.
 
 ```bash
-git clone <REPO_URL>
-cd palm
+git clone https://github.com/hyebin-c/aspl
+cd aspl
 pip install -r requirements.txt
 ```
 
@@ -175,6 +177,18 @@ Logs are saved under [`logs`](/logs) using directories such as:
 ## Citation
 
 Citation information will be updated here.
+
+<a name="contact"/>
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out at hyebin.cho@kaist.ac.kr.
+
+<a name="license"/>
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
 
 <a name="acknowledgement"/>
 
