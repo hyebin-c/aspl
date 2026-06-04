@@ -1,10 +1,21 @@
-# Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models (ASPL)
+<h1 align="center">Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models (ASPL)</h1>
 
-> [**Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models**]()
->
-> [Hyebin Cho](https://hyebin-c.github.io/), [Jaehyuk Jang](https://sites.google.com/view/jaehyukjang), [Changick Kim](https://cilabs.kaist.ac.kr/members/professor), and [Joon Son Chung](https://mm.kaist.ac.kr/joon/)
+<p align="center">
+  <a href="https://interspeech2026.org/">
+    <img src="https://img.shields.io/badge/Accepted-INTERSPEECH_2026-blue" alt="INTERSPEECH 2026">
+  </a>
+  <img src="https://img.shields.io/badge/arXiv-coming_soon-b31b1b?logo=arxiv&logoColor=white" alt="arXiv coming soon">
+  <a href="https://github.com/hyebin-c/aspl">
+    <img src="https://img.shields.io/badge/Code-GitHub-black?logo=github" alt="GitHub repository">
+  </a>
+</p>
 
-📄 Paper on arXiv: coming soon · Accepted to [INTERSPEECH 2026](https://interspeech2026.org/)
+<p align="center">
+  <a href="https://hyebin-c.github.io/">Hyebin Cho</a>,
+  <a href="https://sites.google.com/view/jaehyukjang">Jaehyuk Jang</a>,
+  <a href="https://cilabs.kaist.ac.kr/members/professor">Changick Kim</a>,
+  <a href="https://mm.kaist.ac.kr/joon/">Joon Son Chung</a>
+</p>
 
 <hr />
 
