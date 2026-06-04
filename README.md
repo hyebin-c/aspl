@@ -1,8 +1,10 @@
-# Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models (INTERSPEECH 2026)
+# Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models (ASPL)
 
 > [**Acoustic Prompting via Stage-wise Modulation for Few-Shot Learning in Audio Language Models**]()
 >
 > [Hyebin Cho](https://hyebin-c.github.io/), [Jaehyuk Jang](https://sites.google.com/view/jaehyukjang), [Changick Kim](https://cilabs.kaist.ac.kr/members/professor), and [Joon Son Chung](https://mm.kaist.ac.kr/joon/)
+
+📄 Paper on arXiv: coming soon · Accepted to [INTERSPEECH 2026](https://interspeech2026.org/)
 
 <hr />
 
